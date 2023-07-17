@@ -22,4 +22,12 @@
     <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF0000</item> <!-- Replace with your desired shade of red -->
+        <!-- Add more theme attributes as needed -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
 </resources>
